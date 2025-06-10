@@ -9,7 +9,7 @@ export default function Todo() {
   const [editId, setEditId] = useState(-1);
   const [edittitle, setEditTitle] = useState("");
   const [editdescription, setEditDescription] = useState("");
-  const apiUrl = "https://to-do-list-app-2-8ncr.onrender.com";
+  const apiUrl = "https://to-do-list-app-2-8ncr.onrender";
 
   const handleSubmit = () => {
     setError("");
