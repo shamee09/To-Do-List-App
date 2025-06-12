@@ -9,7 +9,7 @@ export default function Todo() {
   const [editId, setEditId] = useState(-1);
   const [edittitle, setEditTitle] = useState("");
   const [editdescription, setEditDescription] = useState("");
-  const apiUrl = "http://localhost:8000";
+  const apiUrl = "https://to-do-list-app-2-8ncr.onrender";
 
   const handleSubmit = () => {
     setError("");
@@ -94,7 +94,7 @@ export default function Todo() {
   return (
     <>
       <div className="row p-3 bg-success text-light">
-        <h1>TO-DO list Project using MERN Stack</h1>
+        <h1>TO-DO list App </h1>
       </div>
 
       <div className="row">
